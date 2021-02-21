@@ -5,19 +5,18 @@
     font-weight: 400;
     font-family: "BuenosAires-Light";
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 19px;
     overflow-x: hidden;
     
     
 }
+
 @media(max-width:768px){
     html{
-        font-size: 20px;
-    }
-    nav{
-        padding: 10px;
-    }
-   
+        font-size: 18px;
+        line-height: 1.7;
+      
+      }
 }
 
 .showcase{
