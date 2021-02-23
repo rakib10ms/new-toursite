@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;    
-    line-height: 1.6;
+    line-height: 1.7;
     overflow-x: hidden;
      
 }
@@ -96,13 +96,11 @@ nav ul li a{
     padding: 2rem;
 }
 
-.accordion{
-    background-color: burlywood;
-}
 
   .arrow{
-      border:3px solid goldenrod;
-      padding:0.5rem;
+      border:1px solid grey;
+      padding:0.3rem 0.4rem;
+      color:rgb(247, 180, 11);
       font-style: bold;
       position: absolute;
       right:1rem;
@@ -110,5 +108,11 @@ nav ul li a{
       position: fixed;
       display: block;
       cursor: pointer;
-      font-size: 1.7rem
+      font-size: 1.5rem;
+      border-radius: 50%;
+      background-color: white;
+    }
+    .arrow:hover{
+     transform: scale(1.1);
+     transition: 0.2s ease;
     }
